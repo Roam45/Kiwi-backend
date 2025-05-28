@@ -11,7 +11,6 @@ const io = socketIO(server);
 
 const USERS_FILE = "users.txt";
 
-app.use(express.static("public"));
 app.use(express.json());
 
 const rooms = {};
