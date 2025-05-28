@@ -24,8 +24,9 @@ app.use(express.json());
 app.use(cors({
   origin: "https://roam45.github.io",
   methods: ["GET", "POST"],
-  credentials: true,
+  credentials: true
 }));
+
 
 const rooms = {};
 const userSockets = new Map();
